@@ -1,0 +1,127 @@
+.a {
+  width: 480px;
+  height: 75px;
+  background-color: antiquewhite
+}
+.b{
+  width: 480px;
+  height: 150px;
+  background-color: rgb(178, 214, 46);
+
+}
+.c{
+  width: 480px;
+  height: 125px;
+  background-color: rgb(83, 192, 32);
+
+}
+.d{
+  width: 480px;
+  height: 125px;
+  background-color: rgb(116, 194, 190);
+
+}
+.fourPart{
+}
+.e{
+  width: 240px;
+  height: 250px;
+  background-color: rgb(74, 161, 219);
+  float: left;
+}
+.f{
+  width: 240px;
+  height: 250px;
+  background-color: rgb(90, 131, 207);
+  overflow: hidden;
+}
+.g{
+  width: 240px;
+  height: 250px;
+  background-color: rgb(101, 65, 197);
+  float:left;
+}
+.h{
+  width: 240px;
+  height: 250px;
+  background-color: rgb(159, 76, 207);
+
+  overflow: hidden;
+}
+.i{
+  width: 480px;
+  height: 80px;
+  background-color: rgb(196, 87, 163);
+}
+
+/* media query */
+@media only screen and (min-width:768px){
+  .a {
+    width: 960px;
+    height: 100px;
+    background-color: antiquewhite;
+  }
+  .b{
+    width: 200px;
+    height: 600px;
+    background-color: rgb(178, 214, 46);
+    float: left;
+  }
+  .c{
+    width: 375px;
+    height: 200px;
+    overflow: hidden;
+    float: left;
+    background-color: rgb(83, 192, 32);
+  
+  }
+  .d{
+    width: 378px;
+    height: 200px;
+    overflow: hidden;
+    background-color: rgb(116, 194, 190);
+  
+  }
+  .fourPart{
+  }
+  .e{
+    width: 185px;
+    height: 250px;
+    background-color: rgb(74, 161, 219);
+    float: left;
+  }
+  .f{
+    width: 185px;
+    height: 250px;
+    background-color: rgb(90, 131, 207);
+    float:left;
+    overflow: hidden;
+  }
+  .g{
+    width: 190px;
+    height: 250px;
+    background-color: rgb(101, 65, 197);
+    float:left;
+  }
+  .h{
+    width: 190px;
+    height: 250px;
+    background-color: rgb(159, 76, 207);
+    overflow: hidden;
+  }
+  .i{
+    width: 756px;
+    height: 150px;
+    background-color: rgb(196, 87, 163);
+    overflow:hidden;
+  }
+  
+
+
+
+
+
+
+
+
+}
