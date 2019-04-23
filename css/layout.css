@@ -1,3 +1,8 @@
+body{
+  width: 480px;
+  margin: 0 auto;
+  text-align: center;
+}
 .a {
   width: 480px;
   height: 75px;
@@ -21,28 +26,27 @@
   background-color: rgb(116, 194, 190);
 
 }
-.fourPart{
-}
+
 .e{
-  width: 240px;
+  width: 237px;
   height: 250px;
   background-color: rgb(74, 161, 219);
   float: left;
 }
 .f{
-  width: 240px;
+  width: 239px;
   height: 250px;
   background-color: rgb(90, 131, 207);
   overflow: hidden;
 }
 .g{
-  width: 240px;
+  width: 237px;
   height: 250px;
   background-color: rgb(101, 65, 197);
   float:left;
 }
 .h{
-  width: 240px;
+  width: 239px;
   height: 250px;
   background-color: rgb(159, 76, 207);
 
@@ -56,6 +60,11 @@
 
 /* media query */
 @media only screen and (min-width:768px){
+  body{
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+  }
   .a {
     width: 960px;
     height: 100px;
@@ -82,8 +91,7 @@
     background-color: rgb(116, 194, 190);
   
   }
-  .fourPart{
-  }
+  
   .e{
     width: 185px;
     height: 250px;
